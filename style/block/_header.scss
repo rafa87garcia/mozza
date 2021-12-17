@@ -1,0 +1,21 @@
+.header {
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+
+    &__wrapper {
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+    }
+
+    &__logo {
+        width: 200px;
+    }
+}
+

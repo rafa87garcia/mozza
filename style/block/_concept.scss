@@ -1,0 +1,54 @@
+.concept {
+    @include image('../image/fondo-selva.jpg');
+    @include backgroundImage();
+    padding: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        color: white;
+    }
+
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    &__img {
+        position: relative;
+
+        &--img1 {
+            width: 13rem;
+            top: -4rem;
+            left: 7rem;
+        }
+
+        &--img2 {
+            width: 13rem;
+            top: -2rem;
+            left: -8rem;
+        }
+    }
+
+
+    &__content {
+        background-color: black;
+    }
+
+    &__title {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    &__text {
+        padding: 2rem;
+        width: 30rem;
+    }
+}
